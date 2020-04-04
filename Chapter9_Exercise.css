@@ -10,3 +10,35 @@
 	clear: both;
 }
 
+main {
+	margin: 50px auto;
+	width: 960px;
+}
+
+.step-content {
+	width: 300px;
+	float: left;
+	position: relative;
+	border: 1px solid gray;
+}
+
+.step-content:nth-child(2) {
+	margin: 0 30px;
+}
+
+.step-number {
+	background-color: orange;
+	position: absolute;
+	color: white;
+}
+
+.step-visual {
+	width: 280px;
+	background-size: cover;
+	background-position: bottom;
+	margin: 10px;
+}
+
+h3, p {
+	margin: 10px;
+}
